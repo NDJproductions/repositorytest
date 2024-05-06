@@ -1,0 +1,13 @@
+/*CSS for logo*/
+
+.logo {
+    width: 700px;
+    height: 500px;
+    background: url('logoanimation.png') 0 0 no-repeat;
+    animation: play 3s steps(14) infinite;
+}
+
+@keyframes play {
+    0%{background-position:0px;}
+    100% {background-position: -9800px; }
+}
